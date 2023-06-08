@@ -20,14 +20,6 @@ body{
     width: 188.53px;
     height: 30px;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: left;
-    /* background-color: #121212; */
-}
-
 
 .sect-1{
     height: 700px;
