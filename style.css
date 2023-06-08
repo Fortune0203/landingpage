@@ -1,0 +1,213 @@
+@font-face{
+    font-family: myFont;
+    src: url(./fonts/PPRightGothic-WideMedium.woff);
+}
+body{
+    /* background-color: black; */
+    display: flex;
+}
+.navbar.scrolled {
+    background:#121212;
+    transition: background 500ms;
+}
+.nav{
+    margin-left: 200px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    justify-content: center;
+}
+
+
+.sect-1{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url(./images/vector1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #121212;
+}
+.init-txt{
+    width: 923px;
+    height: 250px;
+    text-align: center;
+    font-family: myFont;
+    margin-bottom: 50px;
+}
+.init-txt h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+.init-txt p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #B3B3B3;
+}
+.test{
+    height: 325px;
+    width: 600px;
+    display: flex;
+    align-items: end;
+}
+.temp{
+    height: 318px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.iphone-top{
+    position: absolute;
+    height: 318px;
+}
+.menu{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+
+.sect-2{
+    height: 800px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(./images/noise.svg);
+    background-size: cover;
+    /* background-color: rgb(241,219,141); */
+    /* background-image: linear-gradient(90deg, #121212, #F9956B, #F1DB8D); */
+    /* backdrop-filter: blur(100px); */
+    mix-blend-mode: multiply;
+}
+.ft-box{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.ft-box h3{
+    font-family: myFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #222222;
+}
+.link-cont{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.link1, .link2, .link3{
+    width: 117px;
+    height: 43px;
+    color: #121212;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+}
+.btn:hover{
+    background-color: #F9956B;
+    color: #FFFFFF;
+}
+.clicked{
+    background-color: #F9956B;
+    color: #FFFFFF;
+}
+.heading{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    color: #222222;
+}
+.prg{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+/* .phone-box{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: blueviolet;
+} */
+.phone{
+    height: 600px;
+    width: 299px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 40px 40px rgba(18, 18, 18,0.2);
+}
+.iphone{
+    position: relative;
+    height: 600px;
+    width: 299px;
+}
+.state{
+    position: absolute;
+    height: 568px;
+    width: 262px;
+    border-radius: 33px;
+}
+
+
+.sect-3{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: yellow;
+}
+.templates{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+.bvn{
+    width: 100px;
+    height: 100px;
+    background-color: #188661;
+}
+.otp{
+    width: 100px;
+    height: 100px;
+    background-color: #F9956B;
+    margin-left: -20px;
+}
+
+
+.sect-4{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
