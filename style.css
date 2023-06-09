@@ -280,3 +280,50 @@ body{
     justify-content: center;
     background-color: green;
 }
+
+.sect-5{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 0, 5);
+}
+
+.yurline{
+    /* width: 133.82px; */
+    /* height: 30px; */
+    /* right: 420px; */
+    /* top: 55px; */
+    /* background-color: #E6E6E6; */
+    width: 850px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    
+    
+}
+
+
+.yurlogo{
+    width: 133.82px;
+    height: 30px;
+    /* right: 420px;
+    top: 55px; */
+
+}
+
+.contact{
+    width: 200px;
+    height: 30px;
+    /* right: 133xpx;
+    top: 55px; */
+    color: #040000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.contact a{
+    text-decoration: none;
+}
