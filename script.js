@@ -5,6 +5,32 @@ $(function () {
     });
 });
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show-hero');
+        } else{
+            entry.target.classList.remove('show-hero');
+        }
+    })
+})
+const hiddenElements = document.querySelectorAll('.hero');
+hiddenElements.forEach((el) => observer.observe(el))
+
+const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show-ft');
+        } else{
+            entry.target.classList.remove('show-ft');
+        }
+    })
+})
+const hiddenElements2 = document.querySelectorAll('.features-wrapper');
+hiddenElements2.forEach((el) => observer2.observe(el))
+
 document.querySelector(".link1").onclick = function receive(){
     // const bkg = document.querySelector(".link1")
     // bkg.style.backgroundColor = '#F9956B'
@@ -54,15 +80,4 @@ buttons.forEach(active => {
 })
 
 
-// const observer = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//         console.log(entry)
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add('show');
-//         } else{
-//             entry.target.classList.remove('show');
-//         }
-//     })
-// })
-// const hiddenElements = document.querySelectorAll('.hidden');
-// hiddenElements.forEach((el) => observer.observe(el))
+
