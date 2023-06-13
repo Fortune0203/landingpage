@@ -58,7 +58,7 @@ body{
     /* border: 2px solid gold; */
     display: grid;
     grid-template-columns: 80%;
-    flex-direction: row;
+    gap: 0;
     justify-content: center;
     align-items: end;
     background-image: url(./images/vector1.svg);
@@ -120,38 +120,37 @@ body{
     transform: translateY(-15rem);
 }
 .sample{
-    height: 30.313rem;
+    height: 25.313rem;
     /* width: 100%; */
     /* padding-left: 8%;
     padding-top: 10rem; */
     display: flex;
-    /* align-items: center; */
+    /* grid-template-columns: 40% 30%; */
+    align-items: end;
     justify-content: center;
     border: 2px solid white;
     /* overflow:hidden; */
 }
 .iphone-top{
     width: 40%;
-    max-height: 100%;
+    /* max-height: 100%; */
     /* max-height: 70%; */
     /* margin-bottom: -15.3rem;
     margin-right: -25rem; */
     /* margin-right: 0; */
     transition: cubic-bezier(.03,1.11,.96,1.12) 1s;
     /* isolation: isolate; */
-    position: absolute;
+    /* position: absolute; */
     border: 1px solid red;
     z-index: 0;
 }
 .menu{
     border: 1px solid blue;
-    /* margin-left: 15rem; */
-    position: absolute;
+    /* position: absolute; */
     /* width: 20rem; */
     width: 30%;
-    /* max-height: 30%; */
+    height: 50%;
     z-index: 1;
-    /* margin-bottom: -14rem; */
     transition: cubic-bezier(.03,1.11,.96,1.12) 1s;
 }
 /* .show-hero .iphone-top{
