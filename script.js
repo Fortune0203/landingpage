@@ -31,7 +31,7 @@ const observer2 = new IntersectionObserver((entries) => {
 const hiddenElements2 = document.querySelectorAll('.features-wrapper');
 hiddenElements2.forEach((el) => observer2.observe(el))
 
-document.querySelector(".link1").onclick = function receive(){
+function receive(){
     // const bkg = document.querySelector(".link1")
     // bkg.style.backgroundColor = '#F9956B'
     // bkg.style.color = '#FFFFFF'
@@ -41,10 +41,12 @@ document.querySelector(".link1").onclick = function receive(){
     
     const transferText = document.querySelector(".heading")
     transferText.innerText = "Receive Money"
+    transferText.style.transitionDuration = '1s'
     // transferText.style.opacity = '1'
     
     const transferPrg = document.querySelector(".prg")
     transferPrg.innerText = "Say goodbye to complicated payment methods and delays. Now, you can easily receive money instantly from anyone, anywhere. Simplify your payment collection with YurWallet using a unique account ID created."
+    transferPrg.innerText.transitionDelay = '1s'
 }
 
 document.querySelector(".link2").onclick = function transfer(){
